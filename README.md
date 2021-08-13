@@ -8,7 +8,7 @@ Machine learning models are explored for classifying candidate exoplanets from a
 * Following the split of data for training and testing, the `MinMaxScaler` is used to scale the numerical data (for X only).
 * Tuning of the model parameters is done with `GridSearch`, again, with some trial and error, evaluting the warnings to exclude use of certain parameters.
 
-#### Logistic Regression Model Results
+#### Logistic Regression Model Results (jupyter notebook model_1)
 Prior to parameter tuning:  
 Training Data Score 0.8464619492656876  
 Testing Data Score  0.8638443935926774
@@ -25,7 +25,11 @@ accuracy        |           |         |   0.89  |  1748
 macro avg       |    0.85   |   0.84  |   0.84  |  1748
 weighted avg    |    0.89   |   0.89  |   0.88  |  1748
 
-#### SVM Results
+#### Logistic Regression Model (jupyter notebook model_2)
+Exploration of how dropping additional features would affect the Logistic Regression - due to inferior accuracy analysis in this notebook was not completed.
+
+
+#### SVM Results (jupyter notebook model_3)
 Prior to parameter tuning:
 Training Data Score: 0.8371161548731643  
 Testing Data Score: 0.8564073226544623

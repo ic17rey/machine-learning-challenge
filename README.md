@@ -48,7 +48,8 @@ weighted avg    |    0.90   |   0.89  |   0.88  |  1748
 
 
 #### Comparison of the two models
+The models are saved as logistic_regression.sav and SVC.sav.
 
-Prior to parameter tuning, the Logistic Regression model's scores for both Training and Testing Data were slightly higher than with the Support Vector Machines model. The models are saved as logistic_regression.sav and SVC.sav Following parameter tuning, though, both models are very comparable, with accuracy above 85%. After parameter tuning, the Support Vector model shows a slight edge in accuracy as compared to Logistic Regression. The SVM's edge primarily comes in ability to predict the false positives, which are predicted at 89% accuracy as compared to only 84% accuracy with Logistic Regression. Confirmed and Candidate results are predicted at comparable accuracy between the two models. 
+Prior to parameter tuning, the Logistic Regression model's scores for both Training and Testing Data were slightly higher than with the Support Vector Machines model. Following parameter tuning, though, both models are very comparable, with accuracy above 85%. After parameter tuning, the Support Vector model shows a slight edge in accuracy as compared to Logistic Regression. The SVM's edge primarily comes in ability to predict the false positives, which are predicted at 89% accuracy as compared to only 84% accuracy with Logistic Regression. Confirmed and Candidate results are predicted at comparable accuracy between the two models. 
 
 Overall both models seem to be good predictors of new exoplanets, although better understanding of what features carry the most weight and which other features could be dropped from the analysis would help the models make better predictions.
